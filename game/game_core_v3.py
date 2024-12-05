@@ -44,6 +44,7 @@ def score_game(random_predict) -> int:
     score = int(np.mean(counts))
     return score
     
-print(score_game(random_predict))
+if __name__ == "__main__":
+    print(score_game(random_predict))
 
 
